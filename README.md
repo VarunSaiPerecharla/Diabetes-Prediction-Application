@@ -40,10 +40,12 @@ The user provides input values for the 8 health parameters in the HTML form.
 These values are sent to the Flask backend upon submission
 
 The app.py script:
-                    Preprocesses the input data using the scaler.
-                    Feeds the data into the pre-trained model for prediction.
-                    The model predicts whether the user is likely to have diabetes.
-                    The prediction result is displayed on the webpage.
+                    >Preprocesses the input data using the scaler.
+                    >Feeds the data into the pre-trained model for prediction.
+
+The model predicts whether the user is likely to have diabetes.
+
+The prediction result is displayed on the webpage.
 
 # Acknowledgments
 This project uses machine learning techniques to predict diabetes.
