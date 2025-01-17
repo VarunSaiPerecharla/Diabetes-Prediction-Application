@@ -3,37 +3,42 @@ This project is a web-based application for predicting diabetes using patient da
 
 # Features
 Accepts input for 8 health-related parameters:
-Pregnancies
-Glucose
-Blood Pressure
-Skin Thickness
-Insulin
-BMI
-Diabetes Pedigree Function
-Age
+Pregnancies,
+Glucose,
+Blood Pressure,
+Skin Thickness,
+Insulin,
+BMI,
+Diabetes Pedigree Function,
+Age.
 
   Processes the inputs using a pre-trained ML model.
+  
   Returns a prediction: "Diabetes Positive" or "Diabetes Negative".
+  
   User-friendly interface styled with Bootstrap.
 
 # Requirements
 Before running the application, ensure you have the following installed:
-Python
-Flask
-Numpy
-Scikit-learn
+Python,
+Flask,
+Numpy,
+Scikit-learn.
 
 # Files Overview
-
 app.py: Main Python script for the Flask application. Includes routes for handling form submissions and making predictions using the ML model.
+
 diabetes.pkl: Pre-trained machine learning model.
+
 scaler.pkl: Scaler for preprocessing input data.
+
 index.html: Frontend HTML form for user input.
 
 # How the Prediction Works
-
 The user provides input values for the 8 health parameters in the HTML form.
+
 These values are sent to the Flask backend upon submission
+
 The app.py script:
                     Preprocesses the input data using the scaler.
                     Feeds the data into the pre-trained model for prediction.
@@ -41,6 +46,6 @@ The app.py script:
                     The prediction result is displayed on the webpage.
 
 # Acknowledgments
-
 This project uses machine learning techniques to predict diabetes.
+
 Thanks to the authors of the dataset used for training the model.
