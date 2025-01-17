@@ -12,9 +12,9 @@ BMI
 Diabetes Pedigree Function
 Age
 
-  Processes the inputs using a pre-trained ML model.
-  Returns a prediction: "Diabetes Positive" or "Diabetes Negative".
-  User-friendly interface styled with Bootstrap.
+  >Processes the inputs using a pre-trained ML model.
+  >Returns a prediction: "Diabetes Positive" or "Diabetes Negative".
+  >User-friendly interface styled with Bootstrap.
 
 # Requirements
 Before running the application, ensure you have the following installed:
